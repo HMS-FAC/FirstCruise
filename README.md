@@ -23,7 +23,7 @@ You will then have a ```bundle.js``` file, and the page will be available at loc
 ## Props to pass to component
 
 |Prop|Type|Info|
-|::|::|::|
+|:--:|:--:|:--:|
 |Map|???|Input your map here!|
 |Points|???|Input your points here|
 |Info on points|???|Input information on corresponding points into here|
