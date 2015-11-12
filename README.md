@@ -1,4 +1,6 @@
-# FirstCruise
+# First Cruise
+
+Welcome to our maiden voyage!
 
 ## What?
 
