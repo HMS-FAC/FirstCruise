@@ -1,0 +1,40 @@
+{
+  "name": "first-cruise",
+  "version": "1.0.0",
+  "description": "d3 and react experiment",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "webpack --config webpack.development.config.js --progress --colors",
+    "dev:start": "webpack-dev-server --hot --inline --progress --colors --config webpack.development.config.js",
+    "build": "webpack --config webpack.production.config.js",
+    "start": "open public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HMS-FAC/FirstCruise.git"
+  },
+  "keywords": [
+    "d3",
+    "react"
+  ],
+  "author": "HMS-FAC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HMS-FAC/FirstCruise/issues"
+  },
+  "homepage": "https://github.com/HMS-FAC/FirstCruise#readme",
+  "dependencies": {
+    "babel-core": "^6.0.15",
+    "babel-loader": "^6.0.0",
+    "css-loader": "^0.21.0",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.14.1",
+    "react-dom": "^0.14.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^1.3.0",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
