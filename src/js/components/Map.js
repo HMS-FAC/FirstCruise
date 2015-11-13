@@ -1,14 +1,20 @@
 var React  = require('react');
+var ReactL =require('react-leaflet');
+var Canvas = ReactL.Map;
+var TileLayer = ReactL.TileLayer;
+var tileLayer;
 
 var Map = React.createClass({
-  render: function () {
+
+	render: function () {
+
+  	var position = this.props.setView;
 
     return (
-      <div className="map-container">
-        <h1>Map</h1>
-      </div>
+       <Canvas center={position} zoom={12}>
+    	  <TileLayer url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'/>		
+  	   </Canvas>
     )
-
   }
 });
 

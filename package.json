@@ -27,9 +27,11 @@
     "babel-core": "^6.0.15",
     "babel-loader": "^6.0.0",
     "css-loader": "^0.21.0",
+    "d3act": "^1.1.1",
     "jsx-loader": "^0.13.2",
     "react": "^0.14.1",
     "react-dom": "^0.14.2",
+    "react-leaflet": "^0.9.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2"
   },
