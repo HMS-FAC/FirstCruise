@@ -1,6 +1,6 @@
 var React  = require('react');
-var Map = require('./Map.js');
-
+var Mapping = require('./Mapping.js');
+var Header = require('./Header.js');
 var App = React.createClass({
   
 
@@ -17,17 +17,19 @@ var App = React.createClass({
 
   var cornwallView = [50.40,-4.69];
 
-  var mapProps = {
+  var mappingProps = {
   	data: cornwallData,
   	setView: cornwallView
   }
 
     return (
-      <div className="app-container">
+ 
+      <div>
+        <Header />
         <h1>banter</h1>
-        <div className="map-container">
-        	<Map {...mapProps} />
-        </div>
+     
+        	<Mapping {...mappingProps} />
+       
       </div>
     )
 
