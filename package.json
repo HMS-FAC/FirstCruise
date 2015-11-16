@@ -30,6 +30,7 @@
     "d3act": "^1.1.1",
     "json-loader": "^0.5.3",
     "jsx-loader": "^0.13.2",
+    "leaflet": "^0.7.7",
     "react": "^0.14.1",
     "react-dom": "^0.14.2",
     "react-leaflet": "^0.9.0",
