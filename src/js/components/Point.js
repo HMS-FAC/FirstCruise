@@ -1,15 +1,13 @@
-var React = require('React');
+var React = require('react');
 
 var Point = React.createClass({
 
-    render:function() {
+    render: function() {
+
       return (
-      <circle fill="pink" width="30px"/>
-      );
+      <circle fill="pink" cx="30" cy="30" r="30"/>
+      )
   }
+});
 
-
-
-})
-
-module.exports =  Point ;
+module.exports =  Point;
