@@ -8,9 +8,11 @@ var d3 =require('d3');
 var Mapping = React.createClass({
 
 	render: function () {
+
   	var position = this.props.setView;
-    console.log(position)
-    console.log('Slipways',slipways)
+
+		// console.log(position)
+    // console.log('Slipways',slipways)
 
     return (
        <Map center={position} zoom={12} className="map" id="map">
