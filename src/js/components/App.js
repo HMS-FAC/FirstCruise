@@ -1,8 +1,11 @@
 var React  = require('react');
 var Mapping = require('./Mapping.js');
 var Header = require('./Header.js');
+
+
 var App = React.createClass({
   
+
 
   render: function () {
 
@@ -13,7 +16,8 @@ var App = React.createClass({
 {circle:{coordinates:[50.24,-5.02],tidal:"three-quarters",message:"badda bing!"}},
 {circle:{coordinates:[41.29,-4.78],tidal:"full",message:"badda bing!"}}
 ]};
-
+   
+   
 
   var cornwallView = [50.40,-4.69];
 
