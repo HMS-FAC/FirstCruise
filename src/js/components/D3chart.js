@@ -1,6 +1,6 @@
-var React  = require('react');
-var Canvas = require('./Canvas.js')
-var Point =require('./Point.js');
+var React   = require('react');
+var Canvas  = require('./Canvas.js')
+var Point   = require('./Point.js');
 
 var D3chart = React.createClass({
 

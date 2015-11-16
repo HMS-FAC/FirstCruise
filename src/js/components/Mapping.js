@@ -1,11 +1,11 @@
-var React  = require('react');
-var ReactL =require('react-leaflet');
-var Map  = ReactL.Map;
+var React     = require('react');
+var ReactL    = require('react-leaflet');
+var Map       = ReactL.Map;
 var TileLayer = ReactL.TileLayer;
-var slipways =require('json!./slipways.json')
-var d3 =require('d3');
+var slipways  = require('json!./slipways.json')
+var d3        = require('d3');
 
-var Mapping = React.createClass({
+var Mapping   = React.createClass({
 
 	render: function () {
 
