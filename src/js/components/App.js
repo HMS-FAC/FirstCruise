@@ -26,7 +26,6 @@ var App     = React.createClass({
         <Header/>
         <h1>banter</h1>
         	<Mapping {...mappingProps} />
-          <D3chart/>
       </div>
     )
   }
