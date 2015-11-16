@@ -4,10 +4,7 @@ var Header = require('./Header.js');
 var D3chart= require('./D3chart.js');
 
 var App = React.createClass({
-
-
   render: function () {
-
   	var cornwallData = {objects:[
 {circle:{coordinates:[50.40,-4.66],tidal:"full",message:"boom boom"}},
 {circle:{coordinates:[50.07,-5.70],tidal:"half",message:"badda bing!"}},
@@ -16,24 +13,19 @@ var App = React.createClass({
 {circle:{coordinates:[41.29,-4.78],tidal:"full",message:"badda bing!"}}
 ]};
 
-
   var cornwallView = [50.40,-4.69];
-
   var mappingProps = {
   	data: cornwallData,
   	setView: cornwallView
   }
-
     return (
-
       <div>
-        <Header />
+        <Header/>
         <h1>banter</h1>
         	<Mapping {...mappingProps} />
           <D3chart/>
       </div>
     )
-
   }
 });
 
