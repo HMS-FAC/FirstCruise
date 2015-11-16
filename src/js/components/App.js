@@ -26,10 +26,8 @@ var App = React.createClass({
  
       <div>
         <Header />
-        <h1>banter</h1>
-     
-        	<Mapping {...mappingProps} />
-       
+          <h1>banter</h1>
+          <Mapping {...mappingProps} />
       </div>
     )
 
