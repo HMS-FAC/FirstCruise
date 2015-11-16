@@ -1,8 +1,10 @@
 var React  = require('react');
 var Mapping = require('./Mapping.js');
 var Header = require('./Header.js');
+var D3chart= require('./D3chart.js');
+
 var App = React.createClass({
-  
+
 
   render: function () {
 
@@ -23,13 +25,12 @@ var App = React.createClass({
   }
 
     return (
- 
+
       <div>
         <Header />
         <h1>banter</h1>
-     
         	<Mapping {...mappingProps} />
-       
+          <D3chart/>
       </div>
     )
 
